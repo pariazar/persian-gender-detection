@@ -1,0 +1,4 @@
+pandas
+persianutils
+pgd
+re

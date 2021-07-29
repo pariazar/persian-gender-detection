@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: PGD
+Version: 0.0.2
+Summary: it can detect gender by firstName
+Home-page: UNKNOWN
+Author: Hamed Pariazar
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Persian gender detection
+
+A simple Python package to detect gender by Persian first name. (With more than 25K names)
+
+Example:
+
+```
+
+import pgd
+
+print(pgd.detectGender('Ø¹Ù„ÛŒ'))
+print(pgd.detectGender('Ø­Ø¢Ù…Ø¯'))
+print(pgd.detectGender('Ù†Ø¯Ø§'))
+print(pgd.detectGender('Ù…Ù‡Ø¯ÙŠ'))
+print(pgd.detectGender('Ø³Ø§Ø±Ø§'))
+print(pgd.detectGender('Ù…ÛŒ5Ù†Ø§'))
+print(pgd.detectGender('Ù…Ø±ÛŒ97145Ù…'))
+
+
+```
+
+That would result in:
+
+```
+
+male
+male
+female
+male
+female
+female
+female
+
+```
+
