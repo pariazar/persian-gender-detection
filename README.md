@@ -1,8 +1,19 @@
-## Persian gender detection
+# Persian gender detection
 
 A simple Python package to detect gender by Persian first name. (With more than 25K names)
 
-Example:
+</br>
+
+## Installation
+first install requirements with below command: </br>
+``` pip install -r requirements.txt ```
+
+then intall PGD from pypip: </br>
+``` pip install PGD ```
+
+</br>
+
+## Example:
 
 ```
 
